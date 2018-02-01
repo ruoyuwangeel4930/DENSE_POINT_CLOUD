@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libpcloudcreator.a  CMakeFiles/pcloudcreator.dir/pcloudcreator.cpp.o
+/usr/bin/ranlib ../../lib/libpcloudcreator.a

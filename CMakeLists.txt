@@ -1,0 +1,24 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8) # set version
+PROJECT(DENSE_POINT_CLOUD) # name of project
+SET(CMAKE_CXX_COMPILER "g++") # set compiler
+#SET(CMAKE_BUILD_TYPE "Debug")
+#SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
+#SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O3")
+
+#set excutable file dir
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+#set lib dir
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+
+
+#set link dir
+LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib)
+
+#set header dir
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/include)
+# INCLUDE_DIRECTORIES("/usr/include/suitesparse")
+
+#add sub dir
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src)
+

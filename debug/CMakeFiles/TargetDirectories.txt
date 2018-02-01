@@ -1,0 +1,6 @@
+/home/ruoyu/projects/DENSE_POINT_CLOUD/debug/CMakeFiles/edit_cache.dir
+/home/ruoyu/projects/DENSE_POINT_CLOUD/debug/CMakeFiles/rebuild_cache.dir
+/home/ruoyu/projects/DENSE_POINT_CLOUD/debug/src/CMakeFiles/edit_cache.dir
+/home/ruoyu/projects/DENSE_POINT_CLOUD/debug/src/CMakeFiles/rebuild_cache.dir
+/home/ruoyu/projects/DENSE_POINT_CLOUD/debug/src/CMakeFiles/file_reader_test.dir
+/home/ruoyu/projects/DENSE_POINT_CLOUD/debug/src/CMakeFiles/pcloudcreator.dir

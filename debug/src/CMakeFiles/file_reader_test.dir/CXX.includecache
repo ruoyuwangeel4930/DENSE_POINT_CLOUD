@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pcloudcreator.h
+iostream
+-
+vector
+-
+
+/home/ruoyu/projects/DENSE_POINT_CLOUD/src/file_reader_test.cpp
+pcloudcreator.h
+/home/ruoyu/projects/DENSE_POINT_CLOUD/src/pcloudcreator.h
+
