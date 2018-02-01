@@ -5,6 +5,11 @@ SET(CMAKE_BUILD_TYPE "Debug")
 ADD_LIBRARY( CameraTrackReader CameraTrackReader.cpp )
 TARGET_LINK_LIBRARIES(CameraTrackReader)
 
+ADD_LIBRARY( AssociationReader AssociationReader.cpp )
+TARGET_LINK_LIBRARIES(AssociationReader)
+
 ADD_EXECUTABLE( file_reader_test file_reader_test.cpp )
-TARGET_LINK_LIBRARIES(file_reader_test CameraTrackReader)
+TARGET_LINK_LIBRARIES(file_reader_test 
+		      CameraTrackReader 
+                      AssociationReader)
 

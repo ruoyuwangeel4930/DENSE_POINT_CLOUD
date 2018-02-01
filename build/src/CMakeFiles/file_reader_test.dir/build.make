@@ -91,6 +91,7 @@ file_reader_test_EXTERNAL_OBJECTS =
 ../bin/file_reader_test: src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.o
 ../bin/file_reader_test: src/CMakeFiles/file_reader_test.dir/build.make
 ../bin/file_reader_test: ../lib/libCameraTrackReader.a
+../bin/file_reader_test: ../lib/libAssociationReader.a
 ../bin/file_reader_test: src/CMakeFiles/file_reader_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/file_reader_test"
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/file_reader_test.dir/link.txt --verbose=$(VERBOSE)

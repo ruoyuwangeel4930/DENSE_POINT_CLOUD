@@ -49,7 +49,7 @@ CameraTrackReader::~CameraTrackReader()
 	delete data; 
 }
 
-void::CameraTrackReader::get_frame(int i, KeyFrameParameters& kfp)
+void::CameraTrackReader::get_frame(const int i, KeyFrameParameters& kfp)
 {
 	kfp = (*CameraTrackReader::data)[i];
 

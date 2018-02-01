@@ -5,6 +5,8 @@
 # include <fstream>
 # include <sstream>
 # include <vector>
+# include <map>
+//# include <string>
 
 //pcl
 /*# include <pcl/io/pcd_io.h>
@@ -48,7 +50,6 @@ struct KeyFrameParameters
 class CameraTrackReader
 {
 private:
-	//string fileName;
 	vector<KeyFrameParameters>* data;
 
 public:
@@ -56,13 +57,20 @@ public:
 	// void ClearData();
 	// void getframe(KeyFrameParameters& kfp);
 	~CameraTrackReader();
-	void get_frame(int i, KeyFrameParameters& kfp);
+	void get_frame(const int i, KeyFrameParameters& kfp);
 	int data_size();
 };
 
 class AssociationReader
 {
+private:
+	map<string, string>* ptrRGB2DepthMap;
 
-}
+public:
+	AssociationReader(string fileName);
+	~AssociationReader();
+
+	void get_depth_timestamp(const string& rgbTimeStamp, string& depthTimeStamp);
+};
 
 #endif

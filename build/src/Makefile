@@ -140,6 +140,48 @@ CameraTrackReader/fast:
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/build
 .PHONY : CameraTrackReader/fast
 
+# Convenience name for target.
+src/CMakeFiles/AssociationReader.dir/rule:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/AssociationReader.dir/rule
+.PHONY : src/CMakeFiles/AssociationReader.dir/rule
+
+# Convenience name for target.
+AssociationReader: src/CMakeFiles/AssociationReader.dir/rule
+
+.PHONY : AssociationReader
+
+# fast build rule for target.
+AssociationReader/fast:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/AssociationReader.dir/build.make src/CMakeFiles/AssociationReader.dir/build
+.PHONY : AssociationReader/fast
+
+AssociationReader.o: AssociationReader.cpp.o
+
+.PHONY : AssociationReader.o
+
+# target to build an object file
+AssociationReader.cpp.o:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/AssociationReader.dir/build.make src/CMakeFiles/AssociationReader.dir/AssociationReader.cpp.o
+.PHONY : AssociationReader.cpp.o
+
+AssociationReader.i: AssociationReader.cpp.i
+
+.PHONY : AssociationReader.i
+
+# target to preprocess a source file
+AssociationReader.cpp.i:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/AssociationReader.dir/build.make src/CMakeFiles/AssociationReader.dir/AssociationReader.cpp.i
+.PHONY : AssociationReader.cpp.i
+
+AssociationReader.s: AssociationReader.cpp.s
+
+.PHONY : AssociationReader.s
+
+# target to generate assembly for a file
+AssociationReader.cpp.s:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/AssociationReader.dir/build.make src/CMakeFiles/AssociationReader.dir/AssociationReader.cpp.s
+.PHONY : AssociationReader.cpp.s
+
 CameraTrackReader.o: CameraTrackReader.cpp.o
 
 .PHONY : CameraTrackReader.o
@@ -201,9 +243,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
 	@echo "... file_reader_test"
+	@echo "... rebuild_cache"
 	@echo "... CameraTrackReader"
+	@echo "... AssociationReader"
+	@echo "... AssociationReader.o"
+	@echo "... AssociationReader.i"
+	@echo "... AssociationReader.s"
 	@echo "... CameraTrackReader.o"
 	@echo "... CameraTrackReader.i"
 	@echo "... CameraTrackReader.s"
