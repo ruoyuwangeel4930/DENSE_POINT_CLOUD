@@ -1,4 +1,4 @@
-# Install script for directory: /home/ruoyu/projects/DENSE_POINT_CLOUD/src
+# Install script for directory: /home/ruoyu/DENSE_POINT_CLOUD/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

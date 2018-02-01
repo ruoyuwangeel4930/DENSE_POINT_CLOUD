@@ -54,23 +54,23 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruoyu/projects/DENSE_POINT_CLOUD
+CMAKE_SOURCE_DIR = /home/ruoyu/DENSE_POINT_CLOUD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruoyu/projects/DENSE_POINT_CLOUD/build
+CMAKE_BINARY_DIR = /home/ruoyu/DENSE_POINT_CLOUD/build
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
 src/all: src/CMakeFiles/file_reader_test.dir/all
-src/all: src/CMakeFiles/pcloudcreator.dir/all
+src/all: src/CMakeFiles/CameraTrackReader.dir/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
 src/clean: src/CMakeFiles/file_reader_test.dir/clean
-src/clean: src/CMakeFiles/pcloudcreator.dir/clean
+src/clean: src/CMakeFiles/CameraTrackReader.dir/clean
 
 .PHONY : src/clean
 
@@ -83,10 +83,10 @@ src/preinstall:
 # Target rules for target src/CMakeFiles/file_reader_test.dir
 
 # All Build rule for target.
-src/CMakeFiles/file_reader_test.dir/all: src/CMakeFiles/pcloudcreator.dir/all
+src/CMakeFiles/file_reader_test.dir/all: src/CMakeFiles/CameraTrackReader.dir/all
 	$(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/depend
 	$(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles --progress-num=1,2 "Built target file_reader_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles --progress-num=3,4 "Built target file_reader_test"
 .PHONY : src/CMakeFiles/file_reader_test.dir/all
 
 # Include target in all.
@@ -96,9 +96,9 @@ all: src/CMakeFiles/file_reader_test.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/file_reader_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/file_reader_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/file_reader_test.dir/rule
 
 # Convenience name for target.
@@ -117,39 +117,39 @@ clean: src/CMakeFiles/file_reader_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/pcloudcreator.dir
+# Target rules for target src/CMakeFiles/CameraTrackReader.dir
 
 # All Build rule for target.
-src/CMakeFiles/pcloudcreator.dir/all:
-	$(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/depend
-	$(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles --progress-num=3,4 "Built target pcloudcreator"
-.PHONY : src/CMakeFiles/pcloudcreator.dir/all
+src/CMakeFiles/CameraTrackReader.dir/all:
+	$(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/depend
+	$(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles --progress-num=1,2 "Built target CameraTrackReader"
+.PHONY : src/CMakeFiles/CameraTrackReader.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/pcloudcreator.dir/all
+all: src/CMakeFiles/CameraTrackReader.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/pcloudcreator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/pcloudcreator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/pcloudcreator.dir/rule
+src/CMakeFiles/CameraTrackReader.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CameraTrackReader.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/CameraTrackReader.dir/rule
 
 # Convenience name for target.
-pcloudcreator: src/CMakeFiles/pcloudcreator.dir/rule
+CameraTrackReader: src/CMakeFiles/CameraTrackReader.dir/rule
 
-.PHONY : pcloudcreator
-
-# clean rule for target.
-src/CMakeFiles/pcloudcreator.dir/clean:
-	$(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/clean
-.PHONY : src/CMakeFiles/pcloudcreator.dir/clean
+.PHONY : CameraTrackReader
 
 # clean rule for target.
-clean: src/CMakeFiles/pcloudcreator.dir/clean
+src/CMakeFiles/CameraTrackReader.dir/clean:
+	$(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/clean
+.PHONY : src/CMakeFiles/CameraTrackReader.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/CameraTrackReader.dir/clean
 
 .PHONY : clean
 

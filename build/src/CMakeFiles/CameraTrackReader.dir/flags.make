@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ruoyu/projects/DENSE_POINT_CLOUD/include 
+CXX_INCLUDES = -I/home/ruoyu/DENSE_POINT_CLOUD/include 
 

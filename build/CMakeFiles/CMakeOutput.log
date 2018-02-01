@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94163/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94163.dir/build.make CMakeFiles/cmTC_94163.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94163.dir/testCCompiler.c.o
-/usr/bin/cc    -I/usr/local/include     -o CMakeFiles/cmTC_94163.dir/testCCompiler.c.o   -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_94163
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94163.dir/link.txt --verbose=1
-/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_94163.dir/testCCompiler.c.o  -o cmTC_94163 -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22ed2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22ed2.dir/build.make CMakeFiles/cmTC_22ed2.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22ed2.dir/testCCompiler.c.o
+/usr/bin/cc    -I/usr/local/include     -o CMakeFiles/cmTC_22ed2.dir/testCCompiler.c.o   -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_22ed2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ed2.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_22ed2.dir/testCCompiler.c.o  -o cmTC_22ed2 -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_713bd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_713bd.dir/build.make CMakeFiles/cmTC_713bd.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -I/usr/local/include     -o CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_713bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_713bd.dir/link.txt --verbose=1
-/usr/bin/cc  -I/usr/local/include     -v CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o  -o cmTC_713bd -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_4f0dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f0dd.dir/build.make CMakeFiles/cmTC_4f0dd.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -I/usr/local/include     -o CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4f0dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f0dd.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include     -v CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o  -o cmTC_4f0dd -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-I' '/usr/local/include' '-v' '-o' 'cmTC_713bd' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0hugUa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_713bd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-I' '/usr/local/include' '-v' '-o' 'cmTC_4f0dd' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccirVQPN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4f0dd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_713bd/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_713bd.dir/build.make CMakeFiles/cmTC_713bd.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -I/usr/local/include     -o CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_713bd]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_713bd.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -I/usr/local/include     -v CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o  -o cmTC_713bd -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4f0dd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4f0dd.dir/build.make CMakeFiles/cmTC_4f0dd.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -I/usr/local/include     -o CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4f0dd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f0dd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -I/usr/local/include     -v CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o  -o cmTC_4f0dd -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/include' '-v' '-o' 'cmTC_713bd' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0hugUa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_713bd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/include' '-v' '-o' 'cmTC_4f0dd' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccirVQPN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4f0dd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc0hugUa.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccirVQPN.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_713bd] ==> ignore
+    arg [cmTC_4f0dd] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_713bd.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4f0dd.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5fd8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5fd8.dir/build.make CMakeFiles/cmTC_a5fd8.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a5fd8.dir/feature_tests.c.o
-/usr/bin/cc    -I/usr/local/include     -std=c11 -o CMakeFiles/cmTC_a5fd8.dir/feature_tests.c.o   -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a5fd8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5fd8.dir/link.txt --verbose=1
-/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_a5fd8.dir/feature_tests.c.o  -o cmTC_a5fd8 -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_98fcb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98fcb.dir/build.make CMakeFiles/cmTC_98fcb.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98fcb.dir/feature_tests.c.o
+/usr/bin/cc    -I/usr/local/include     -std=c11 -o CMakeFiles/cmTC_98fcb.dir/feature_tests.c.o   -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_98fcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98fcb.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_98fcb.dir/feature_tests.c.o  -o cmTC_98fcb -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFi
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dbab5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dbab5.dir/build.make CMakeFiles/cmTC_dbab5.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dbab5.dir/feature_tests.c.o
-/usr/bin/cc    -I/usr/local/include     -std=c99 -o CMakeFiles/cmTC_dbab5.dir/feature_tests.c.o   -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_dbab5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbab5.dir/link.txt --verbose=1
-/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_dbab5.dir/feature_tests.c.o  -o cmTC_dbab5 -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_336c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_336c3.dir/build.make CMakeFiles/cmTC_336c3.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_336c3.dir/feature_tests.c.o
+/usr/bin/cc    -I/usr/local/include     -std=c99 -o CMakeFiles/cmTC_336c3.dir/feature_tests.c.o   -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_336c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_336c3.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_336c3.dir/feature_tests.c.o  -o cmTC_336c3 -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFi
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9e469/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9e469.dir/build.make CMakeFiles/cmTC_9e469.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9e469.dir/feature_tests.c.o
-/usr/bin/cc    -I/usr/local/include     -std=c90 -o CMakeFiles/cmTC_9e469.dir/feature_tests.c.o   -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9e469
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e469.dir/link.txt --verbose=1
-/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_9e469.dir/feature_tests.c.o  -o cmTC_9e469 -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d19ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d19ee.dir/build.make CMakeFiles/cmTC_d19ee.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d19ee.dir/feature_tests.c.o
+/usr/bin/cc    -I/usr/local/include     -std=c90 -o CMakeFiles/cmTC_d19ee.dir/feature_tests.c.o   -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d19ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d19ee.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include      CMakeFiles/cmTC_d19ee.dir/feature_tests.c.o  -o cmTC_d19ee -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFi
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44f48/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44f48.dir/build.make CMakeFiles/cmTC_44f48.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_44f48.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_44f48.dir/testCXXCompiler.cxx.o -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_44f48
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f48.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_44f48.dir/testCXXCompiler.cxx.o  -o cmTC_44f48 -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a3dbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3dbf.dir/build.make CMakeFiles/cmTC_a3dbf.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3dbf.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_a3dbf.dir/testCXXCompiler.cxx.o -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a3dbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3dbf.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_a3dbf.dir/testCXXCompiler.cxx.o  -o cmTC_a3dbf -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e190/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e190.dir/build.make CMakeFiles/cmTC_8e190.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8e190
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e190.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8e190 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_8fd1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fd1a.dir/build.make CMakeFiles/cmTC_8fd1a.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8fd1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fd1a.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8fd1a -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e190' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvrMThw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8e190 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8fd1a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cckds8WW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8fd1a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8e190/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8e190.dir/build.make CMakeFiles/cmTC_8e190.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8e190]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e190.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8e190 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8fd1a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8fd1a.dir/build.make CMakeFiles/cmTC_8fd1a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8fd1a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fd1a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8fd1a -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e190' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvrMThw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8e190 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8fd1a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cckds8WW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8fd1a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccvrMThw.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckds8WW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8e190] ==> ignore
+    arg [cmTC_8fd1a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_8e190.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8fd1a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8924b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8924b.dir/build.make CMakeFiles/cmTC_8924b.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8924b.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_8924b.dir/feature_tests.cxx.o -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8924b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8924b.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_8924b.dir/feature_tests.cxx.o  -o cmTC_8924b -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_40a47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40a47.dir/build.make CMakeFiles/cmTC_40a47.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40a47.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_40a47.dir/feature_tests.cxx.o -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_40a47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40a47.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_40a47.dir/feature_tests.cxx.o  -o cmTC_40a47 -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFi
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d351f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d351f.dir/build.make CMakeFiles/cmTC_d351f.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d351f.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_d351f.dir/feature_tests.cxx.o -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d351f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d351f.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d351f.dir/feature_tests.cxx.o  -o cmTC_d351f -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e77ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e77ee.dir/build.make CMakeFiles/cmTC_e77ee.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e77ee.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_e77ee.dir/feature_tests.cxx.o -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e77ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e77ee.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e77ee.dir/feature_tests.cxx.o  -o cmTC_e77ee -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFi
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_06dbf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_06dbf.dir/build.make CMakeFiles/cmTC_06dbf.dir/build
-make[1]: Entering directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_06dbf.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_06dbf.dir/feature_tests.cxx.o -c /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_06dbf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06dbf.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_06dbf.dir/feature_tests.cxx.o  -o cmTC_06dbf -rdynamic 
-make[1]: Leaving directory '/home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_26904/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26904.dir/build.make CMakeFiles/cmTC_26904.dir/build
+make[1]: Entering directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26904.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_26904.dir/feature_tests.cxx.o -c /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_26904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26904.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_26904.dir/feature_tests.cxx.o  -o cmTC_26904 -rdynamic 
+make[1]: Leaving directory '/home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -15,8 +15,18 @@ sstream
 -
 vector
 -
+pcl/point_types.h
+-
+pcl/common/transforms.h
+-
+pcl/visualization/cloud_viewer.h
+-
+pcl/filters/voxel_grid.h
+-
+pcl/filters/passthrough.h
+-
 
-/home/ruoyu/projects/DENSE_POINT_CLOUD/src/file_reader_test.cpp
+/home/ruoyu/DENSE_POINT_CLOUD/src/file_reader_test.cpp
 pcloudcreator.h
-/home/ruoyu/projects/DENSE_POINT_CLOUD/src/pcloudcreator.h
+/home/ruoyu/DENSE_POINT_CLOUD/src/pcloudcreator.h
 

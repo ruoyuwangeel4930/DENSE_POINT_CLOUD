@@ -44,5 +44,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/file_reader_test.dir/DependInfo.cmake"
-  "src/CMakeFiles/pcloudcreator.dir/DependInfo.cmake"
+  "src/CMakeFiles/CameraTrackReader.dir/DependInfo.cmake"
   )

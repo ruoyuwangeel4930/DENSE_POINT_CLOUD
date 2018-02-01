@@ -8,16 +8,20 @@ int main(int argc, char** argv)
 
 	KeyFrameParameters kfp;
 
-	int i = 1;
-
-	while(ctr.fin->peek() != EOF)		
+	for (size_t i = 0; i < ctr.data_size(); i++)
 	{
-		cout << i << " " << ctr.fin->eof() << " ";
-		ctr.getframe(kfp);
-		i++;
-	}
+		ctr.get_frame(i, kfp);
+		
+		cout <<"frame: " << i <<" "<<kfp.timeStamp<<" "
+    				 			   <<kfp.x_c<<" "
+    				               <<kfp.y_c<<" "
+    				               <<kfp.z_c<<" "
+    				               <<kfp.x<<" "
+    				               <<kfp.y<<" "
+    				               <<kfp.z<<" "
+    				               <<kfp.w<<" " << endl;
 
-	ctr.clear();
+    }
 
 	return 0;
 }

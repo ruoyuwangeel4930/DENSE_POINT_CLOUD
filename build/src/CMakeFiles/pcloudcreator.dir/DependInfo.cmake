@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ruoyu/projects/DENSE_POINT_CLOUD/src/pcloudcreator.cpp" "/home/ruoyu/projects/DENSE_POINT_CLOUD/build/src/CMakeFiles/pcloudcreator.dir/pcloudcreator.cpp.o"
+  "/home/ruoyu/DENSE_POINT_CLOUD/src/pcloudcreator.cpp" "/home/ruoyu/DENSE_POINT_CLOUD/build/src/CMakeFiles/pcloudcreator.dir/pcloudcreator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

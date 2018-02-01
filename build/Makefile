@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruoyu/projects/DENSE_POINT_CLOUD
+CMAKE_SOURCE_DIR = /home/ruoyu/DENSE_POINT_CLOUD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruoyu/projects/DENSE_POINT_CLOUD/build
+CMAKE_BINARY_DIR = /home/ruoyu/DENSE_POINT_CLOUD/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,17 +124,17 @@ file_reader_test/fast:
 .PHONY : file_reader_test/fast
 
 #=============================================================================
-# Target rules for targets named pcloudcreator
+# Target rules for targets named CameraTrackReader
 
 # Build rule for target.
-pcloudcreator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcloudcreator
-.PHONY : pcloudcreator
+CameraTrackReader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CameraTrackReader
+.PHONY : CameraTrackReader
 
 # fast build rule for target.
-pcloudcreator/fast:
-	$(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/build
-.PHONY : pcloudcreator/fast
+CameraTrackReader/fast:
+	$(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/build
+.PHONY : CameraTrackReader/fast
 
 # Help Target
 help:
@@ -145,7 +145,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... file_reader_test"
-	@echo "... pcloudcreator"
+	@echo "... CameraTrackReader"
 .PHONY : help
 
 

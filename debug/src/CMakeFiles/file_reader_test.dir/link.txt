@@ -1,1 +1,0 @@
-g++   -g   CMakeFiles/file_reader_test.dir/file_reader_test.cpp.o  -o ../../bin/file_reader_test  -L/home/ruoyu/projects/DENSE_POINT_CLOUD/lib -rdynamic ../../lib/libpcloudcreator.a -Wl,-rpath,/home/ruoyu/projects/DENSE_POINT_CLOUD/lib 

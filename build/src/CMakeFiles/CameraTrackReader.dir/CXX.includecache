@@ -26,7 +26,7 @@ pcl/filters/voxel_grid.h
 pcl/filters/passthrough.h
 -
 
-/home/ruoyu/DENSE_POINT_CLOUD/src/pcloudcreator.cpp
+/home/ruoyu/DENSE_POINT_CLOUD/src/CameraTrackReader.cpp
 pcloudcreator.h
 /home/ruoyu/DENSE_POINT_CLOUD/src/pcloudcreator.h
 boost/algorithm/string.hpp

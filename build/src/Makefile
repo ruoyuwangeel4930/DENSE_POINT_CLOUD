@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruoyu/projects/DENSE_POINT_CLOUD
+CMAKE_SOURCE_DIR = /home/ruoyu/DENSE_POINT_CLOUD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruoyu/projects/DENSE_POINT_CLOUD/build
+CMAKE_BINARY_DIR = /home/ruoyu/DENSE_POINT_CLOUD/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles /home/ruoyu/projects/DENSE_POINT_CLOUD/build/src/CMakeFiles/progress.marks
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/projects/DENSE_POINT_CLOUD/build/CMakeFiles 0
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles /home/ruoyu/DENSE_POINT_CLOUD/build/src/CMakeFiles/progress.marks
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyu/DENSE_POINT_CLOUD/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/file_reader_test.dir/rule:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/file_reader_test.dir/rule
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/file_reader_test.dir/rule
 .PHONY : src/CMakeFiles/file_reader_test.dir/rule
 
 # Convenience name for target.
@@ -122,23 +122,50 @@ file_reader_test: src/CMakeFiles/file_reader_test.dir/rule
 
 # fast build rule for target.
 file_reader_test/fast:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/build
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/build
 .PHONY : file_reader_test/fast
 
 # Convenience name for target.
-src/CMakeFiles/pcloudcreator.dir/rule:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/pcloudcreator.dir/rule
-.PHONY : src/CMakeFiles/pcloudcreator.dir/rule
+src/CMakeFiles/CameraTrackReader.dir/rule:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CameraTrackReader.dir/rule
+.PHONY : src/CMakeFiles/CameraTrackReader.dir/rule
 
 # Convenience name for target.
-pcloudcreator: src/CMakeFiles/pcloudcreator.dir/rule
+CameraTrackReader: src/CMakeFiles/CameraTrackReader.dir/rule
 
-.PHONY : pcloudcreator
+.PHONY : CameraTrackReader
 
 # fast build rule for target.
-pcloudcreator/fast:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/build
-.PHONY : pcloudcreator/fast
+CameraTrackReader/fast:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/build
+.PHONY : CameraTrackReader/fast
+
+CameraTrackReader.o: CameraTrackReader.cpp.o
+
+.PHONY : CameraTrackReader.o
+
+# target to build an object file
+CameraTrackReader.cpp.o:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/CameraTrackReader.cpp.o
+.PHONY : CameraTrackReader.cpp.o
+
+CameraTrackReader.i: CameraTrackReader.cpp.i
+
+.PHONY : CameraTrackReader.i
+
+# target to preprocess a source file
+CameraTrackReader.cpp.i:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/CameraTrackReader.cpp.i
+.PHONY : CameraTrackReader.cpp.i
+
+CameraTrackReader.s: CameraTrackReader.cpp.s
+
+.PHONY : CameraTrackReader.s
+
+# target to generate assembly for a file
+CameraTrackReader.cpp.s:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/CameraTrackReader.cpp.s
+.PHONY : CameraTrackReader.cpp.s
 
 file_reader_test.o: file_reader_test.cpp.o
 
@@ -146,7 +173,7 @@ file_reader_test.o: file_reader_test.cpp.o
 
 # target to build an object file
 file_reader_test.cpp.o:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.o
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.o
 .PHONY : file_reader_test.cpp.o
 
 file_reader_test.i: file_reader_test.cpp.i
@@ -155,7 +182,7 @@ file_reader_test.i: file_reader_test.cpp.i
 
 # target to preprocess a source file
 file_reader_test.cpp.i:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.i
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.i
 .PHONY : file_reader_test.cpp.i
 
 file_reader_test.s: file_reader_test.cpp.s
@@ -164,35 +191,8 @@ file_reader_test.s: file_reader_test.cpp.s
 
 # target to generate assembly for a file
 file_reader_test.cpp.s:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.s
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.s
 .PHONY : file_reader_test.cpp.s
-
-pcloudcreator.o: pcloudcreator.cpp.o
-
-.PHONY : pcloudcreator.o
-
-# target to build an object file
-pcloudcreator.cpp.o:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/pcloudcreator.cpp.o
-.PHONY : pcloudcreator.cpp.o
-
-pcloudcreator.i: pcloudcreator.cpp.i
-
-.PHONY : pcloudcreator.i
-
-# target to preprocess a source file
-pcloudcreator.cpp.i:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/pcloudcreator.cpp.i
-.PHONY : pcloudcreator.cpp.i
-
-pcloudcreator.s: pcloudcreator.cpp.s
-
-.PHONY : pcloudcreator.s
-
-# target to generate assembly for a file
-pcloudcreator.cpp.s:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/pcloudcreator.dir/build.make src/CMakeFiles/pcloudcreator.dir/pcloudcreator.cpp.s
-.PHONY : pcloudcreator.cpp.s
 
 # Help Target
 help:
@@ -203,13 +203,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... file_reader_test"
-	@echo "... pcloudcreator"
+	@echo "... CameraTrackReader"
+	@echo "... CameraTrackReader.o"
+	@echo "... CameraTrackReader.i"
+	@echo "... CameraTrackReader.s"
 	@echo "... file_reader_test.o"
 	@echo "... file_reader_test.i"
 	@echo "... file_reader_test.s"
-	@echo "... pcloudcreator.o"
-	@echo "... pcloudcreator.i"
-	@echo "... pcloudcreator.s"
 .PHONY : help
 
 
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ruoyu/projects/DENSE_POINT_CLOUD/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
