@@ -21,8 +21,6 @@ using namespace std;
 //typedef pcl::PointCloud<PointT> PointCloud;
 
 //return the time stamp of depth image for corresponding rgb image
-string match_depth(string timeStampRGB, string fileName);
-
 //return point cloud
 //PointCloud::Ptr image2pointcloud(cv::Mat& rgb, cv::Mat& depth, CameraParameters& cp);
 
@@ -62,6 +60,9 @@ public:
 	int data_size();
 };
 
-// class AssociationReader
+class AssociationReader
+{
+
+}
 
 #endif
