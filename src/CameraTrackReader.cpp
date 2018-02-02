@@ -3,7 +3,7 @@
 
 using namespace std;
 
-CameraTrackReader::CameraTrackReader(string fileName)
+CameraTrackReader::CameraTrackReader(const string& fileName)
 {
 	CameraTrackReader::data = new vector<KeyFrameParameters>;
 
@@ -46,7 +46,7 @@ CameraTrackReader::CameraTrackReader(string fileName)
 
 CameraTrackReader::~CameraTrackReader()
 {
-	delete data; 
+	delete CameraTrackReader::data; 
 }
 
 void::CameraTrackReader::get_frame(const int i, KeyFrameParameters& kfp)

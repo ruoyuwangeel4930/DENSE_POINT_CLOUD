@@ -169,6 +169,9 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dependencies for target
+CameraReader_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 CameraTrackReader_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake

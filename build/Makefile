@@ -149,6 +149,19 @@ AssociationReader/fast:
 	$(MAKE) -f src/CMakeFiles/AssociationReader.dir/build.make src/CMakeFiles/AssociationReader.dir/build
 .PHONY : AssociationReader/fast
 
+#=============================================================================
+# Target rules for targets named CameraReader
+
+# Build rule for target.
+CameraReader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CameraReader
+.PHONY : CameraReader
+
+# fast build rule for target.
+CameraReader/fast:
+	$(MAKE) -f src/CMakeFiles/CameraReader.dir/build.make src/CMakeFiles/CameraReader.dir/build
+.PHONY : CameraReader/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,6 +173,7 @@ help:
 	@echo "... file_reader_test"
 	@echo "... CameraTrackReader"
 	@echo "... AssociationReader"
+	@echo "... CameraReader"
 .PHONY : help
 
 

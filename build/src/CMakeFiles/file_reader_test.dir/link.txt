@@ -1,1 +1,1 @@
-g++   -g   CMakeFiles/file_reader_test.dir/file_reader_test.cpp.o  -o ../../bin/file_reader_test  -L/home/ruoyu/DENSE_POINT_CLOUD/lib -rdynamic ../../lib/libCameraTrackReader.a ../../lib/libAssociationReader.a -Wl,-rpath,/home/ruoyu/DENSE_POINT_CLOUD/lib 
+g++   -g   CMakeFiles/file_reader_test.dir/file_reader_test.cpp.o  -o ../../bin/file_reader_test  -L/home/ruoyu/DENSE_POINT_CLOUD/lib -rdynamic ../../lib/libCameraTrackReader.a ../../lib/libAssociationReader.a ../../lib/libCameraReader.a -Wl,-rpath,/home/ruoyu/DENSE_POINT_CLOUD/lib 

@@ -17,6 +17,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/ruoyu/DENSE_POINT_CLOUD/build/src/CMakeFiles/CameraTrackReader.dir/DependInfo.cmake"
   "/home/ruoyu/DENSE_POINT_CLOUD/build/src/CMakeFiles/AssociationReader.dir/DependInfo.cmake"
+  "/home/ruoyu/DENSE_POINT_CLOUD/build/src/CMakeFiles/CameraReader.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

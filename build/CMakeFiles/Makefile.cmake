@@ -46,4 +46,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/file_reader_test.dir/DependInfo.cmake"
   "src/CMakeFiles/CameraTrackReader.dir/DependInfo.cmake"
   "src/CMakeFiles/AssociationReader.dir/DependInfo.cmake"
+  "src/CMakeFiles/CameraReader.dir/DependInfo.cmake"
   )

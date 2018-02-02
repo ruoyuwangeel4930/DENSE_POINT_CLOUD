@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pcloudcreator.h
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+map
+-
+pcl/point_types.h
+-
+pcl/common/transforms.h
+-
+pcl/visualization/cloud_viewer.h
+-
+pcl/filters/voxel_grid.h
+-
+pcl/filters/passthrough.h
+-
+
+/home/ruoyu/DENSE_POINT_CLOUD/src/CameraReader.cpp
+pcloudcreator.h
+/home/ruoyu/DENSE_POINT_CLOUD/src/pcloudcreator.h
+boost/algorithm/string.hpp
+-
+

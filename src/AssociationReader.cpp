@@ -3,7 +3,7 @@
 
 using namespace std;
 
-AssociationReader::AssociationReader(string fileName)
+AssociationReader::AssociationReader(const string& fileName)
 {
 	AssociationReader::ptrRGB2DepthMap = new map<string, string>; 
 
@@ -27,6 +27,8 @@ AssociationReader::AssociationReader(string fileName)
 	}
 
 	fin.close();
+
+	cout << "Association file loaded..." << endl;
 }
 
 AssociationReader::~AssociationReader()

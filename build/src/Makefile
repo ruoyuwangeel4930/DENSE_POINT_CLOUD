@@ -155,6 +155,21 @@ AssociationReader/fast:
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/AssociationReader.dir/build.make src/CMakeFiles/AssociationReader.dir/build
 .PHONY : AssociationReader/fast
 
+# Convenience name for target.
+src/CMakeFiles/CameraReader.dir/rule:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CameraReader.dir/rule
+.PHONY : src/CMakeFiles/CameraReader.dir/rule
+
+# Convenience name for target.
+CameraReader: src/CMakeFiles/CameraReader.dir/rule
+
+.PHONY : CameraReader
+
+# fast build rule for target.
+CameraReader/fast:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraReader.dir/build.make src/CMakeFiles/CameraReader.dir/build
+.PHONY : CameraReader/fast
+
 AssociationReader.o: AssociationReader.cpp.o
 
 .PHONY : AssociationReader.o
@@ -181,6 +196,33 @@ AssociationReader.s: AssociationReader.cpp.s
 AssociationReader.cpp.s:
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/AssociationReader.dir/build.make src/CMakeFiles/AssociationReader.dir/AssociationReader.cpp.s
 .PHONY : AssociationReader.cpp.s
+
+CameraReader.o: CameraReader.cpp.o
+
+.PHONY : CameraReader.o
+
+# target to build an object file
+CameraReader.cpp.o:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraReader.dir/build.make src/CMakeFiles/CameraReader.dir/CameraReader.cpp.o
+.PHONY : CameraReader.cpp.o
+
+CameraReader.i: CameraReader.cpp.i
+
+.PHONY : CameraReader.i
+
+# target to preprocess a source file
+CameraReader.cpp.i:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraReader.dir/build.make src/CMakeFiles/CameraReader.dir/CameraReader.cpp.i
+.PHONY : CameraReader.cpp.i
+
+CameraReader.s: CameraReader.cpp.s
+
+.PHONY : CameraReader.s
+
+# target to generate assembly for a file
+CameraReader.cpp.s:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraReader.dir/build.make src/CMakeFiles/CameraReader.dir/CameraReader.cpp.s
+.PHONY : CameraReader.cpp.s
 
 CameraTrackReader.o: CameraTrackReader.cpp.o
 
@@ -243,13 +285,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... file_reader_test"
 	@echo "... rebuild_cache"
+	@echo "... file_reader_test"
 	@echo "... CameraTrackReader"
 	@echo "... AssociationReader"
+	@echo "... CameraReader"
 	@echo "... AssociationReader.o"
 	@echo "... AssociationReader.i"
 	@echo "... AssociationReader.s"
+	@echo "... CameraReader.o"
+	@echo "... CameraReader.i"
+	@echo "... CameraReader.s"
 	@echo "... CameraTrackReader.o"
 	@echo "... CameraTrackReader.i"
 	@echo "... CameraTrackReader.s"

@@ -9,22 +9,21 @@
 //# include <string>
 
 //pcl
-/*# include <pcl/io/pcd_io.h>
+# include <pcl/io/pcd_io.h>
 # include <pcl/point_types.h>
 # include <pcl/common/transforms.h>
 # include <pcl/visualization/cloud_viewer.h>
 # include <pcl/filters/voxel_grid.h>
-# include <pcl/filters/passthrough.h>*/
+# include <pcl/filters/passthrough.h>
 
 using namespace std;
 
 //type define
-//typedef pcl::PointXYZRGBA PointT;
-//typedef pcl::PointCloud<PointT> PointCloud;
+typedef pcl::PointXYZRGBA PointT;
+typedef pcl::PointCloud<PointT> PointCloud;
 
-//return the time stamp of depth image for corresponding rgb image
 //return point cloud
-//PointCloud::Ptr image2pointcloud(cv::Mat& rgb, cv::Mat& depth, CameraParameters& cp);
+void image2pointcloud(const cv::Mat& rgb, const cv::Mat& depth, const CameraParameters& cp, PointCloud::Ptr& cloud);
 
 struct CameraParameters
 {
@@ -53,12 +52,25 @@ private:
 	vector<KeyFrameParameters>* data;
 
 public:
-	CameraTrackReader(string fileName);
+	CameraTrackReader(const string& fileName);
 	// void ClearData();
 	// void getframe(KeyFrameParameters& kfp);
 	~CameraTrackReader();
 	void get_frame(const int i, KeyFrameParameters& kfp);
 	int data_size();
+};
+
+class CameraReader
+{
+private:
+	map<string, string>* camParams;
+
+public:
+	CameraReader(const string& fileName);
+	~CameraReader();
+	
+	double get_data(const string& paramName);
+	void get_camera(CameraParameters& cp);
 };
 
 class AssociationReader
@@ -67,10 +79,12 @@ private:
 	map<string, string>* ptrRGB2DepthMap;
 
 public:
-	AssociationReader(string fileName);
+	AssociationReader(const string& fileName);
 	~AssociationReader();
 
 	void get_depth_timestamp(const string& rgbTimeStamp, string& depthTimeStamp);
 };
+
+
 
 #endif
