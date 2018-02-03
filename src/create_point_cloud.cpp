@@ -84,6 +84,7 @@ int main(int argc, char** argv)
 
 	cout << "pointcloud.pcd is saved." << endl;
 
-
+	output->clear();
+	
 	return 0;
 }
