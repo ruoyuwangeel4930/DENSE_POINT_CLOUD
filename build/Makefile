@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named create_point_cloud
+
+# Build rule for target.
+create_point_cloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 create_point_cloud
+.PHONY : create_point_cloud
+
+# fast build rule for target.
+create_point_cloud/fast:
+	$(MAKE) -f src/CMakeFiles/create_point_cloud.dir/build.make src/CMakeFiles/create_point_cloud.dir/build
+.PHONY : create_point_cloud/fast
+
+#=============================================================================
 # Target rules for targets named file_reader_test
 
 # Build rule for target.
@@ -162,6 +175,19 @@ CameraReader/fast:
 	$(MAKE) -f src/CMakeFiles/CameraReader.dir/build.make src/CMakeFiles/CameraReader.dir/build
 .PHONY : CameraReader/fast
 
+#=============================================================================
+# Target rules for targets named image2pointcloud
+
+# Build rule for target.
+image2pointcloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image2pointcloud
+.PHONY : image2pointcloud
+
+# fast build rule for target.
+image2pointcloud/fast:
+	$(MAKE) -f src/CMakeFiles/image2pointcloud.dir/build.make src/CMakeFiles/image2pointcloud.dir/build
+.PHONY : image2pointcloud/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -170,10 +196,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... create_point_cloud"
 	@echo "... file_reader_test"
 	@echo "... CameraTrackReader"
 	@echo "... AssociationReader"
 	@echo "... CameraReader"
+	@echo "... image2pointcloud"
 .PHONY : help
 
 

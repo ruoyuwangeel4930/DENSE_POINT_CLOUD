@@ -13,8 +13,15 @@
 # include <pcl/point_types.h>
 # include <pcl/common/transforms.h>
 # include <pcl/visualization/cloud_viewer.h>
-# include <pcl/filters/voxel_grid.h>
-# include <pcl/filters/passthrough.h>
+
+// opencv
+// OpenCV
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+//#include <opencv2/features2d/features2d.hpp> // feature detection module
+//#include <opencv2/xfeatures2d.hpp>
+//#include <opencv2/calib3d/calib3d.hpp> // cam cali
+//#include <opencv2/core/eigen.hpp>
 
 using namespace std;
 
@@ -23,8 +30,6 @@ typedef pcl::PointXYZRGBA PointT;
 typedef pcl::PointCloud<PointT> PointCloud;
 
 //return point cloud
-void image2pointcloud(const cv::Mat& rgb, const cv::Mat& depth, const CameraParameters& cp, PointCloud::Ptr& cloud);
-
 struct CameraParameters
 {
 	double cx, cy, fx, fy, scale;
@@ -84,6 +89,8 @@ public:
 
 	void get_depth_timestamp(const string& rgbTimeStamp, string& depthTimeStamp);
 };
+
+PointCloud::Ptr image2pointcloud(const cv::Mat& rgb, const cv::Mat& depth, const CameraParameters& cp);
 
 
 

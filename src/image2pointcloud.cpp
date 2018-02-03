@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void image2pointcloud(const cv::Mat& rgb, const cv::Mat& depth, const CameraParameters& cp, PointCloud::Ptr& cloud)
+PointCloud::Ptr image2pointcloud(const cv::Mat& rgb, const cv::Mat& depth, const CameraParameters& cp)
 {
-	cloud = new PointCloud;
+	PointCloud::Ptr cloud(new PointCloud);
 	ushort d; // depth value
 	PointT p; // point
 
@@ -33,5 +33,5 @@ void image2pointcloud(const cv::Mat& rgb, const cv::Mat& depth, const CameraPara
 	cloud->width = cloud->points.size();
 	cloud->is_dense = false;
 
-	return;
+	return cloud;
 }

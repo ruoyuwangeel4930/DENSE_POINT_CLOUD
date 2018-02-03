@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/create_point_cloud.dir/rule:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/create_point_cloud.dir/rule
+.PHONY : src/CMakeFiles/create_point_cloud.dir/rule
+
+# Convenience name for target.
+create_point_cloud: src/CMakeFiles/create_point_cloud.dir/rule
+
+.PHONY : create_point_cloud
+
+# fast build rule for target.
+create_point_cloud/fast:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/create_point_cloud.dir/build.make src/CMakeFiles/create_point_cloud.dir/build
+.PHONY : create_point_cloud/fast
+
+# Convenience name for target.
 src/CMakeFiles/file_reader_test.dir/rule:
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/file_reader_test.dir/rule
 .PHONY : src/CMakeFiles/file_reader_test.dir/rule
@@ -169,6 +184,21 @@ CameraReader: src/CMakeFiles/CameraReader.dir/rule
 CameraReader/fast:
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraReader.dir/build.make src/CMakeFiles/CameraReader.dir/build
 .PHONY : CameraReader/fast
+
+# Convenience name for target.
+src/CMakeFiles/image2pointcloud.dir/rule:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/image2pointcloud.dir/rule
+.PHONY : src/CMakeFiles/image2pointcloud.dir/rule
+
+# Convenience name for target.
+image2pointcloud: src/CMakeFiles/image2pointcloud.dir/rule
+
+.PHONY : image2pointcloud
+
+# fast build rule for target.
+image2pointcloud/fast:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/image2pointcloud.dir/build.make src/CMakeFiles/image2pointcloud.dir/build
+.PHONY : image2pointcloud/fast
 
 AssociationReader.o: AssociationReader.cpp.o
 
@@ -251,6 +281,33 @@ CameraTrackReader.cpp.s:
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/CameraTrackReader.dir/build.make src/CMakeFiles/CameraTrackReader.dir/CameraTrackReader.cpp.s
 .PHONY : CameraTrackReader.cpp.s
 
+create_point_cloud.o: create_point_cloud.cpp.o
+
+.PHONY : create_point_cloud.o
+
+# target to build an object file
+create_point_cloud.cpp.o:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/create_point_cloud.dir/build.make src/CMakeFiles/create_point_cloud.dir/create_point_cloud.cpp.o
+.PHONY : create_point_cloud.cpp.o
+
+create_point_cloud.i: create_point_cloud.cpp.i
+
+.PHONY : create_point_cloud.i
+
+# target to preprocess a source file
+create_point_cloud.cpp.i:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/create_point_cloud.dir/build.make src/CMakeFiles/create_point_cloud.dir/create_point_cloud.cpp.i
+.PHONY : create_point_cloud.cpp.i
+
+create_point_cloud.s: create_point_cloud.cpp.s
+
+.PHONY : create_point_cloud.s
+
+# target to generate assembly for a file
+create_point_cloud.cpp.s:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/create_point_cloud.dir/build.make src/CMakeFiles/create_point_cloud.dir/create_point_cloud.cpp.s
+.PHONY : create_point_cloud.cpp.s
+
 file_reader_test.o: file_reader_test.cpp.o
 
 .PHONY : file_reader_test.o
@@ -278,6 +335,33 @@ file_reader_test.cpp.s:
 	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/file_reader_test.dir/build.make src/CMakeFiles/file_reader_test.dir/file_reader_test.cpp.s
 .PHONY : file_reader_test.cpp.s
 
+image2pointcloud.o: image2pointcloud.cpp.o
+
+.PHONY : image2pointcloud.o
+
+# target to build an object file
+image2pointcloud.cpp.o:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/image2pointcloud.dir/build.make src/CMakeFiles/image2pointcloud.dir/image2pointcloud.cpp.o
+.PHONY : image2pointcloud.cpp.o
+
+image2pointcloud.i: image2pointcloud.cpp.i
+
+.PHONY : image2pointcloud.i
+
+# target to preprocess a source file
+image2pointcloud.cpp.i:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/image2pointcloud.dir/build.make src/CMakeFiles/image2pointcloud.dir/image2pointcloud.cpp.i
+.PHONY : image2pointcloud.cpp.i
+
+image2pointcloud.s: image2pointcloud.cpp.s
+
+.PHONY : image2pointcloud.s
+
+# target to generate assembly for a file
+image2pointcloud.cpp.s:
+	cd /home/ruoyu/DENSE_POINT_CLOUD/build && $(MAKE) -f src/CMakeFiles/image2pointcloud.dir/build.make src/CMakeFiles/image2pointcloud.dir/image2pointcloud.cpp.s
+.PHONY : image2pointcloud.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -285,11 +369,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
+	@echo "... create_point_cloud"
 	@echo "... file_reader_test"
 	@echo "... CameraTrackReader"
 	@echo "... AssociationReader"
 	@echo "... CameraReader"
+	@echo "... rebuild_cache"
+	@echo "... image2pointcloud"
 	@echo "... AssociationReader.o"
 	@echo "... AssociationReader.i"
 	@echo "... AssociationReader.s"
@@ -299,9 +385,15 @@ help:
 	@echo "... CameraTrackReader.o"
 	@echo "... CameraTrackReader.i"
 	@echo "... CameraTrackReader.s"
+	@echo "... create_point_cloud.o"
+	@echo "... create_point_cloud.i"
+	@echo "... create_point_cloud.s"
 	@echo "... file_reader_test.o"
 	@echo "... file_reader_test.i"
 	@echo "... file_reader_test.s"
+	@echo "... image2pointcloud.o"
+	@echo "... image2pointcloud.i"
+	@echo "... image2pointcloud.s"
 .PHONY : help
 
 
