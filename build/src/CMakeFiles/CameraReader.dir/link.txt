@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libCameraReader.a  CMakeFiles/CameraReader.dir/CameraReader.cpp.o
-/usr/bin/ranlib ../../lib/libCameraReader.a

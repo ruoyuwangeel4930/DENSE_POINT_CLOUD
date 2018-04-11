@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libAssociationReader.a  CMakeFiles/AssociationReader.dir/AssociationReader.cpp.o
-/usr/bin/ranlib ../../lib/libAssociationReader.a

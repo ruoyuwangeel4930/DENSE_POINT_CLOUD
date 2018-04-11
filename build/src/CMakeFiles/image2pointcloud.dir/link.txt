@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libimage2pointcloud.a  CMakeFiles/image2pointcloud.dir/image2pointcloud.cpp.o
-/usr/bin/ranlib ../../lib/libimage2pointcloud.a
