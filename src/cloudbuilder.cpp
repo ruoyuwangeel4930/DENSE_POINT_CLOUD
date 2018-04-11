@@ -117,7 +117,7 @@ dec::PointCloud::Ptr dec::CloudBuilder::image2pointcloud(const cv::Mat& rgb, con
     return cloud;
 }
 
-dec::PointCloud::Ptr dec::CloudBuilder::buildPointCloud(const float near, const float far, const float leaf_sz)
+dec::PointCloud::Ptr dec::CloudBuilder::buildPointCloud(const float near, const float far, const float leaf_sz, const int start, const int end, const int step)
 {
     map<double, string> rgbt2rgbfname;
     map<double, string> rgbt2depfname;
@@ -137,7 +137,7 @@ dec::PointCloud::Ptr dec::CloudBuilder::buildPointCloud(const float near, const 
     pass.setFilterLimits(near, far);
     voxel.setLeafSize(leaf_sz, leaf_sz, leaf_sz);
 
-    for (size_t i = 0; i < this->kf_tstamp.size(); ++i)
+    for (size_t i = start; i < end; i+=step)
     {
         cv::Mat rgb = cv::imread(rgbt2rgbfname[kf_tstamp[i]]);
         cv::Mat dep = cv::imread(rgbt2depfname[kf_tstamp[i]], -1);
