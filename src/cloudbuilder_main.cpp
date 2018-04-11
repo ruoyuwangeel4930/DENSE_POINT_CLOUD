@@ -15,8 +15,6 @@ int main(int argc, char** argv)
     dec::CloudBuilder cbr = dec::CloudBuilder(argv[1], argv[2], argv[3]);
     cloud = cbr.buildPointCloud(near, far, leaf_sz);
     pcl::io::savePCDFileASCII ("dense_map.pcd", *cloud);
-    cloud->clear();
-
     cout << "dense_map.pcd has been saved." << endl;
 
     return 0;

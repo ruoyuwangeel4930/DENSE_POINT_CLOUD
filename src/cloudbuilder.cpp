@@ -76,23 +76,23 @@ dec::CloudBuilder::CloudBuilder(const string traj_fname, const string assoc_fnam
     }
     fcam.close();
 
-    this->cam.cx = atof(this->parameters["cx"].c_str());
-    this->cam.cy = atof(this->parameters["cy"].c_str());
-    this->cam.fx = atof(this->parameters["fx"].c_str());
-    this->cam.fy = atof(this->parameters["fy"].c_str());
-    this->cam.scale = atof(this->parameters["cx"].c_str());
+    this->cam.cx = atof(this->parameters["Camera.cx"].c_str());
+    this->cam.cy = atof(this->parameters["Camera.cy"].c_str());
+    this->cam.fx = atof(this->parameters["Camera.fx"].c_str());
+    this->cam.fy = atof(this->parameters["Camera.fy"].c_str());
+    this->cam.scale = atof(this->parameters["DepthMapFactor"].c_str());
 }
 
 dec::PointCloud::Ptr dec::CloudBuilder::image2pointcloud(const cv::Mat& rgb, const cv::Mat& depth)
 {
     dec::PointCloud::Ptr cloud(new dec::PointCloud);
-    unsigned long d; // depth value
+    ushort d; // depth value
     dec::PointT p; // point
 
     for (int m=0; m < depth.rows; m++)
         for(int n=0; n < depth.cols; n++)
         {
-            d = depth.ptr<unsigned long>(m)[n];
+            d = depth.ptr<ushort>(m)[n];
 
             if (d == 0)
                 continue;
@@ -153,7 +153,7 @@ dec::PointCloud::Ptr dec::CloudBuilder::buildPointCloud(const float near, const 
         dec::SE3 se3 = this->vSE3[i];
         dec::Affine pose;
         dec::Trans trans = dec::Trans(se3.tx, se3.ty, se3.tz);
-        dec::Rot rot = dec::Rot(se3.x, se3.y, se3.z, se3.w);
+        dec::Rot rot = dec::Rot(se3.w, se3.x, se3.y, se3.z);
         pose = trans * rot;
         dec::PointCloud::Ptr kf_map_transformed(new dec::PointCloud);
         pcl::transformPointCloud(*kf_map_filtered, *kf_map_transformed, pose);
@@ -161,7 +161,7 @@ dec::PointCloud::Ptr dec::CloudBuilder::buildPointCloud(const float near, const 
 
         *tmp_map += *kf_map_transformed;
         kf_map_transformed->clear();
-        std::cout << "keyframe [" << rgbt2rgbfname[kf_tstamp[i]] << "] is registered." << std::endl; 
+        std::cout << "keyframe [" << rgbt2rgbfname[kf_tstamp[i]] << " " << rgbt2depfname[kf_tstamp[i]] <<"] is registered." << std::endl; 
     }
 
     voxel.setInputCloud(tmp_map);
