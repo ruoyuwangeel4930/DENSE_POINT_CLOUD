@@ -34,7 +34,7 @@ class CloudBuilder
 {
 public:
 	CloudBuilder(const string traj_fname, const string assoc_fname, const string cam_fname);
-	PointCloud::Ptr buildPointCloud(const float near, const float far, const float leaf_sz);
+	PointCloud::Ptr buildPointCloud(const float near, const float far, const float leaf_sz, const int start, const int end, const int step);
 private:
 	map<string, string> parameters;
 	CameraParameters cam;
